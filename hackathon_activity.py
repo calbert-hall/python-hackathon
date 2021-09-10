@@ -52,7 +52,7 @@ def ultra_fast_test(web_driver, eyes):
 
         # Call Open on eyes to initialize a test session
         eyes.open(
-            web_driver, "Hackathon", "SOLUTION: Applifashion Filter Workflow Test'", {"width": 1200, "height": 800}
+            web_driver, "Hackathon", "[Your Team] : Applifashion Filter Workflow Test'", {"width": 1200, "height": 800}
         )
 
         if DYNAMIC_CONTENT :
@@ -60,6 +60,10 @@ def ultra_fast_test(web_driver, eyes):
 
 
         #TODO your code here!
+
+
+
+
 
 
         # Call Close on eyes to let the server know it should display the results
