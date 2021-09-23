@@ -10,6 +10,10 @@
 6. If you want to run example from IDE, install any IDE for Python (e.g. [PyCharm](https://www.jetbrains.com/pycharm/download/) )
 
 ### Run the example
+1. Clone this repo and cd into the directory.
+2. Install the dependencies: `pip3 install -r requirements.txt`
+3. Set your Applitools API key as the `APPLITOOLS_API_KEY` environment variable, or hard-code it in the setup of your test. 
+4. Run the example test: `python basic_demo.py`
 
 
 # Hackathon Exercise!
